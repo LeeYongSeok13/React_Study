@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import MyComponent from "./component/MyComponent";
+import Counter from "./component/Counter";
+import Say from "./component/Say";
+import EventPractice from "./component/EventPractice";
+import ValidationSample from "./component/ValidationSample";
+import ScrollBox from "./component/ScrollBox";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MyComponent name="React" favoriteNumber={2}>
+        리액트
+      </MyComponent>
+      <Counter />
+      <Say />
+      <EventPractice />
+      <ValidationSample />
+      <ScrollBox />
+    </>
   );
-}
+};
 
 export default App;
