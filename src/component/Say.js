@@ -9,6 +9,7 @@ const Say = () => {
 
   return (
     <div>
+      <h1>3. Say</h1>
       <button onClick={onClickEnter}>입장</button>
       <button onClick={onClickLeave}>퇴장</button>
       <h1 style={{ color }}>{message}</h1>

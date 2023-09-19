@@ -9,6 +9,7 @@ class Counter extends Component {
     const { number, fixedNumber } = this.state; // state를 조회할때는 this.state 로 조회한다.
     return (
       <div>
+        <h1>2. Counter1</h1>
         <h1>{number}</h1>
         <h2>바뀌지 않는 값: {fixedNumber}</h2>
         <button

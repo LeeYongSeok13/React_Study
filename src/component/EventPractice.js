@@ -28,6 +28,7 @@ const EventPractice = () => {
   };
   return (
     <div>
+      <h1>4. EventPractice</h1>
       <h1>이벤트 연습</h1>
       <input
         type="text"
