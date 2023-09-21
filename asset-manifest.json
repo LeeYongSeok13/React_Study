@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React_Study/static/css/main.3dc9d8d9.css",
+    "main.js": "/React_Study/static/js/main.2e7c1d93.js",
+    "index.html": "/React_Study/index.html",
+    "main.3dc9d8d9.css.map": "/React_Study/static/css/main.3dc9d8d9.css.map",
+    "main.2e7c1d93.js.map": "/React_Study/static/js/main.2e7c1d93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dc9d8d9.css",
+    "static/js/main.2e7c1d93.js"
+  ]
+}
