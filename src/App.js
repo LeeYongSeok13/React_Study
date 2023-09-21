@@ -1,5 +1,7 @@
 import { Component } from "react";
+import "./App.css";
 
+import Header from "./component/Header";
 import MyComponent from "./component/MyComponent";
 import Counter from "./component/Counter";
 import Say from "./component/Say";
@@ -30,7 +32,8 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="App">
+        <Header />
         <MyComponent name="React" favoriteNumber={2}>
           리액트
         </MyComponent>
