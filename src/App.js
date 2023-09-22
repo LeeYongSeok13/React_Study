@@ -14,6 +14,7 @@ import Counter2 from "./component/Counter2";
 import Info from "./component/Info";
 import Counter3 from "./component/Counter3";
 import Average from "./component/Average";
+import SassComponent from "./component/SassComponent";
 
 function getRandomColor() {
   return "#" + Math.floor(Math.random() * 16777215).toString(16);
@@ -53,6 +54,7 @@ class App extends Component {
         <Info />
         <Counter3 />
         <Average />
+        <SassComponent />
       </div>
     );
   }
