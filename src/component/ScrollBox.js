@@ -24,7 +24,7 @@ class ScrollBox extends Component {
       <div>
         <h1>6. ScrollBox</h1>
         <div
-          class="scrollBox"
+          className="scrollBox"
           style={style}
           ref={(ref) => {
             this.box = ref;

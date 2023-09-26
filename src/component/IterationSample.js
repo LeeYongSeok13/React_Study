@@ -32,12 +32,12 @@ const IterationSample = () => {
     </li>
   ));
   return (
-    <>
+    <div>
       <h1>7. IterationSample</h1>
       <input value={inputText} onChange={onChange} />
       <button onClick={onClick}>추가</button>
       <ul>{nameList}</ul>
-    </>
+    </div>
   );
 };
 
